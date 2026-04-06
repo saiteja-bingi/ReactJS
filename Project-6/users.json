@@ -6,6 +6,5 @@
       "dob": "0003-12-11",
       "id": "QI99DgMwRWk"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
