@@ -1,16 +1,16 @@
-# React + Vite
+🌤️ Liquid Glass Weather
+A premium, high-performance React weather dashboard wrapped in a stunning glassmorphic UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This modern application provides real-time weather data and 5-day forecasting with an immersive, cinema-quality design. Built entirely with React, it leverages the OpenWeatherMap API and features a custom-built "Liquid Glass" aesthetic that seamlessly blends frosted, translucent UI components over atmospheric background photography.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Key Features
+Immersive Glassmorphism: Cards and search bars use heavy backdrop-blur filters, dynamic drop shadows, and subtle lighting overlays to create a true frosted glass effect.
+Intelligent Auto-Complete: The search bar queries the OpenWeather Geocoding API in real-time (with built-in debouncing), offering instant, clickable city suggestions in a sleek dropdown.
+Horizontal Forecast Strip: A beautifully contained, horizontally scrollable timeline providing accurate hourly/daily meteorological predictions without cluttering the screen.
+Micro-Interactions: Smooth CSS transitions, glowing hover-states, and satisfying shake animations for error notifications ensure a highly responsive user experience.
+Fluid & Responsive: Built cleanly with custom CSS and React Hooks to ensure flawless rendering across devices.
+🛠️ Tech Stack
+Core: React + Vite
+Data Validation & State: React Hook Form
+Styling: Vanilla CSS (Custom Glassmorphism), Bootstrap Utilities
+External Data: OpenWeatherMap API
