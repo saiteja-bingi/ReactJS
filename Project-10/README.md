@@ -1,16 +1,52 @@
-🌤️ Liquid Glass Weather
-A premium, high-performance React weather dashboard wrapped in a stunning glassmorphic UI.
+# 🌤️ Liquid Glass Weather
 
-This modern application provides real-time weather data and 5-day forecasting with an immersive, cinema-quality design. Built entirely with React, it leverages the OpenWeatherMap API and features a custom-built "Liquid Glass" aesthetic that seamlessly blends frosted, translucent UI components over atmospheric background photography.
+A premium, high-performance **React weather dashboard** with a stunning **glassmorphic UI**.
 
-✨ Key Features
-Immersive Glassmorphism: Cards and search bars use heavy backdrop-blur filters, dynamic drop shadows, and subtle lighting overlays to create a true frosted glass effect.
-Intelligent Auto-Complete: The search bar queries the OpenWeather Geocoding API in real-time (with built-in debouncing), offering instant, clickable city suggestions in a sleek dropdown.
-Horizontal Forecast Strip: A beautifully contained, horizontally scrollable timeline providing accurate hourly/daily meteorological predictions without cluttering the screen.
-Micro-Interactions: Smooth CSS transitions, glowing hover-states, and satisfying shake animations for error notifications ensure a highly responsive user experience.
-Fluid & Responsive: Built cleanly with custom CSS and React Hooks to ensure flawless rendering across devices.
-🛠️ Tech Stack
-Core: React + Vite
-Data Validation & State: React Hook Form
-Styling: Vanilla CSS (Custom Glassmorphism), Bootstrap Utilities
-External Data: OpenWeatherMap API
+This application provides real-time weather data and a 5-day forecast with a cinematic design. Built using React and powered by the OpenWeatherMap API, it features a custom **“Liquid Glass” aesthetic** with frosted, translucent UI components over atmospheric backgrounds.
+
+---
+
+## ✨ Features
+
+- 🧊 **Glassmorphism UI**
+  - Frosted glass effects with backdrop blur
+  - Dynamic shadows and lighting overlays
+
+- 🔍 **Smart Auto-Complete**
+  - Real-time city suggestions
+  - Debounced API calls for performance
+  - Clickable dropdown results
+
+- 📅 **Horizontal Forecast Strip**
+  - Scrollable hourly/daily forecast
+  - Clean and compact UI
+
+- ⚡ **Micro-Interactions**
+  - Smooth transitions and hover effects
+  - Error animations (shake effect)
+
+- 📱 **Responsive Design**
+  - Works across all devices
+  - Built with React Hooks and custom CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite  
+- **State Management & Forms:** React Hook Form  
+- **Styling:** Vanilla CSS (Glassmorphism), Bootstrap Utilities  
+- **API:** OpenWeatherMap API  
+
+---
+
+## 🌐 Live Demo
+
+🚀 [View Live App](https://weather-app-rosy-seven-69.vercel.app/)
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/liquid-glass-weather.git
+cd liquid-glass-weather
